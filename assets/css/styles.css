@@ -22,9 +22,15 @@ h1{
     background-size: cover;
 }
 
-.dogeat a{
-    position: absolute;
+.dogeat{
+    position: relative;
     display: block;
+    text-align: center;
+    color:#fff;
+    margin: 10% 10%;
+
+}
+
+.errortext{
     text-decoration: none;
-    color:#812ddd;
 }
