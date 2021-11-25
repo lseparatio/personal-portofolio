@@ -43,12 +43,28 @@ h1 {
     padding: 0;
 }
 
-#navbar-brand {
-    color: aliceblue;
-}
 
 .navbar{
     background-color: #00BFFF;
+    color: #0B5563;
+}
+
+.flag {
+    height: 30px;
+    width: 30px;
+}
+
+/*------------- Hero Section ---------------- */
+
+#hero-div {
+    padding: 0;
+}
+
+#hero-div {
+      background: url(../img/developer-coding-in-php.jpg);
+      height: 80%;
+      width: 100%;
+      padding: 0;
 }
 
 
