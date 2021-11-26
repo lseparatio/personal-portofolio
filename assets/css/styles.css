@@ -43,10 +43,13 @@ h1 {
     padding: 0;
 }
 
+#brand {
+    color: #fff;
+}
+
 
 .navbar{
-    background-color: #00BFFF;
-    color: #0B5563;
+    background-color: #5299D3;
 }
 
 .flag {
@@ -54,17 +57,40 @@ h1 {
     width: 30px;
 }
 
+
 /*------------- Hero Section ---------------- */
 
-#hero-div {
+#hero-section {
+    background: url(../img/developer-coding-in-php.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
     padding: 0;
 }
 
 #hero-div {
-      background: url(../img/developer-coding-in-php.jpg);
-      height: 80%;
-      width: 100%;
-      padding: 0;
+    height: 80vh;
+}
+
+
+.hero-relative-left {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10vh;
+    padding-left: 5%;
+    padding-right: 70%;
+}
+
+.hero-relative-right {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40vh;
+    padding-right: 5%;
+    padding-left: 50%;
+ 
 }
 
 
