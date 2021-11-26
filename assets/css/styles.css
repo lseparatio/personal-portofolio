@@ -5,7 +5,21 @@ h1 {
     text-align: center;
 }
 
+/*------------- General ---------------- */
 
+section {
+    padding: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: 5px solid #00Bfff;
+    border-radius: 2px;
+  }
 
 /*------------- Custom 404 page ---------------- */
 
@@ -92,6 +106,26 @@ h1 {
     padding-left: 50%;
  
 }
+
+/*------------- Wellcome image ---------------- */
+
+
+#presentation {
+    height: 80%;
+
+}
+
+.ionut-zapototchi {
+    height: 80%;
+    width: 50%;
+    padding: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+
 
 
 
