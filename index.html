@@ -15,7 +15,9 @@
 </head>
 
 <body>
-
+    <!--  Code copyed and modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
     <!--Header Navigation-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-top">
@@ -66,14 +68,14 @@
     <section>
         <div class="container-fluid" id="presentation">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 frame">
                     <img class="img-fluid float-left" id="ionut-zapototchi" src="assets/img/ionut.jpg"
                         alt="Ionut Zapototchi profile image">
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wellcome">
                     <h1>Wellcome</h1>
-                    <p>Wellcome to my portofolio website</p>
+                    <p>   Wellcome to my portofolio website</p>
 
                 </div>
             </div>
@@ -83,9 +85,9 @@
     <hr>
 
     <!--Skills Section-->
-    <section>
+    <section class="skills">
         <div>
-            <h1 id="skylls-are">My Skylls Are:</h1>
+            <h1 id="skylls-are">My Skills Are:</h1>
         </div>
 
         <div class="row progress-section">
@@ -125,9 +127,44 @@
     </section>
 
     <section>
-        <footer>
-            <div>
-                <h5>© Ionut Zapototchi</h5><a class="nav-link" href="#"><i class="fas fa-download"></i>CV</a>
+        <footer class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h6>© Ionut Zapototchi</h6>
+                    <p class="inline-block">This website was created by me for my own use and a example of
+                        my skills.
+                </div>
+
+                <div class="col-md-4">
+                    <h6>Social</h6>
+                    <ul class="list-inline social-list">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/zapototchi/">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook Profile</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.linkedin.com/in/ionut-zapototchi-50294989/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn Profile</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/lseparatio">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span class="sr-only">Git Hub Profile</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 download">
+                    <h6>Download CV</h6>
+                    <a class="nav-link" href="#">If you need my CV in PDF format you can download here:<span class="sr-only">Download CV</span><i class="fas fa-download"></i></a>
+                </div>
             </div>
 
         </footer>
@@ -144,6 +181,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+        <!--  Code copyed and modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
 </body>
 
 </html>
