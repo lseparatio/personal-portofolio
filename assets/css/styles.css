@@ -25,6 +25,10 @@ hr {
     margin: 0;
   }
 
+  h3 {
+      text-align: center;
+  }
+
 /*------------- Custom 404 page ---------------- */
 
 .dog {
@@ -93,24 +97,7 @@ hr {
 }
 
 
-.hero-relative-left {
-    position: relative;
-    text-align: center;
-    color: aliceblue;
-    padding-top: 10vh;
-    padding-left: 5%;
-    padding-right: 70%;
-}
 
-.hero-relative-right {
-    position: relative;
-    text-align: center;
-    color: aliceblue;
-    padding-top: 40vh;
-    padding-right: 5%;
-    padding-left: 50%;
- 
-}
 
 /*------------- Wellcome image ---------------- */
 
@@ -185,9 +172,9 @@ a.nav-link {
     color: aliceblue;
 }
 
-/*--  Code copyed and modified from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp --*/
-#myBtn {
-    display: none; /* Hidden by default */
+
+#jump-top {
+    display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 53px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
@@ -202,7 +189,7 @@ a.nav-link {
     font-size: 18px; /* Increase font size */
   }
   
-  #myBtn:hover {
+  #jump-top:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
