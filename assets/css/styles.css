@@ -20,7 +20,7 @@ div {
 }
 
 hr {
-    border: 5px solid #4b678f;
+    border: 5px solid rgba(0, 0, 255, 0);
     border-radius: 2px;
     margin: 0;
   }
@@ -66,8 +66,13 @@ hr {
 }
 
 #brand {
-    color: #fff;
-    font-family: "Fjalla+One", sans-serif; 
+    font-family: "Lora", sans-serif; 
+    color: aliceblue;
+}
+
+#navbarToggler a {
+    font-family: "Lora", sans-serif; 
+    color: aliceblue;
 }
 
 
@@ -96,6 +101,20 @@ hr {
     height: 80vh;
 }
 
+#jumotron-container {
+    padding-top: 20vh;
+}
+
+#jumotron-container h1 {
+    font-family: "Lora", sans-serif;
+    color: aliceblue;
+}
+
+#jumotron-container h3 {
+    font-family: "Lora", sans-serif;
+    color: aliceblue;
+}
+
 
 
 
@@ -122,17 +141,24 @@ hr {
   }
 
   .wellcome {
-    background-color: #b6b4cc;
+    background-color: #4b678f;
+  }
+
+  .wellcome h1, p {
+      font-family: "Lora", sans-serif;
+      color: aliceblue;
+      text-align: center;
   }
 
 .col-md-6 {
     padding: 0;
 }
 
-/*------------- Skylls Section---------------- */
+/*-- Skills Section-- */
 
-#skylls-are {
+.skills h1 {
     font-family: "Lora", sans-serif;
+    color: aliceblue;
     padding-top: 15px;
     margin-bottom: 0;
 }
@@ -157,10 +183,27 @@ hr {
 }
 
 .skills {
-    background-color: #b6b4cc;
+    background-color: #4b678f;
 }
 
-/*--------Footer*-------*/
+/*--Call To Action Section--*/
+
+.call-to-action {
+    background-color: #4b678f;
+}
+
+#h1-call-to-action {
+    margin-top: 10px;
+    font-family: "Lora", sans-serif;
+    color: aliceblue;
+}
+#button-yes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*--Footer--*/
 
 
 footer {

@@ -20,14 +20,14 @@
     <!--Header Navigation-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand order-first" id="brand" href="index.html">Ionut Zapototchi</a>
 
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
                 <ul class="navbar-nav mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
@@ -49,8 +49,8 @@
     <!--Hero Section-->
 
     <section id="hero-section" class="container-fluid">
-        <div class="row" id="hero-div">
-            <div class="col-md-12">
+        <div class="jumbotron-fluid" id="hero-div">
+            <div class="container text-center" id="jumotron-container">
                 <h1>Ionut Zapototchi</h1>
                 <h3>Full Stack Developer</h3>
             </div>
@@ -84,7 +84,7 @@
     <!--Skills Section-->
     <section class="skills">
         <div>
-            <h1 id="skylls-are">My Skills Are:</h1>
+            <h1>My Skills Are:</h1>
         </div>
 
         <div class="row progress-section">
@@ -126,13 +126,13 @@
     <hr>
 
     <!--Call to action to go to next page-->
-    <section class="container-fluid">
+    <section class="container-fluid call-to-action">
         <div class="row">
             <div class="col-md-12">
-                <h1>You will like to see some of my real work?</h1>
+                <h1 id="h1-call-to-action">You will like to see some of my real work?</h1>
             </div>
             <div class="col-md-12 text-center">
-                <a class="btn btn-outline-primary" href="examples.html" role="button">Yes, please!</a>
+                <a id="button-yes" class="btn btn-outline-primary" href="examples.html" role="button">Yes, please!</a>
             </div>
         </div>
     </section>
