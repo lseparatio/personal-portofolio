@@ -19,23 +19,23 @@
     <!--Header Navigation-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand order-first" id="brand" href="index.html">Ionut Zapototchi</a>
 
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
                 <ul class="navbar-nav mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="examples.html">Work Examples</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-download"></i>CV</a>
@@ -80,31 +80,32 @@
     </section>
 
     <section>
-<form>
-    <div class="form-group">
-        <label for="full-name">Full Name</label>
-        <input type="text" class="form-control" id="full-name" name="full-name" placeholder="Full Name" >
+        <form>
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" class="form-control" id="full-name" name="full-name" placeholder="Full Name">
 
-    </div>
-</form>
+            </div>
+        </form>
     </section>
 
+    <!--Footer-->
     <section>
         <footer class="container-fluid">
             <div class="row">
 
                 <div class="col-md-4">
-                    <h6>© Ionut Zapototchi</h6>
+                    <h5>© Ionut Zapototchi</h5>
                     <p class="inline-block">This website was created by me for my own use and a example of
                         my skills.
                 </div>
 
                 <div class="col-md-4">
-                    <h6>Social</h6>
+                    <h5>Social</h5>
                     <ul class="list-inline social-list">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.facebook.com/zapototchi/">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook Profile</span>
                             </a>
                         </li>
@@ -116,8 +117,26 @@
                         </li>
                         <li class="list-inline-item">
                             <a target="_blank" href="https://github.com/lseparatio">
-                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
                                 <span class="sr-only">Git Hub Profile</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="tel:00441915522554">
+                                <i class="fas fa-phone-square-alt" aria-hidden="true"></i>
+                                <span class="sr-only">Call Me On: +441915522554</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="mailto:admin@zaivlife.com">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span class="sr-only">Mail Me On: admin@zaivlife.com</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-skype" aria-hidden="true"></i>
+                                <span class="sr-only">My skype profile</span>
                             </a>
                         </li>
                     </ul>
@@ -125,12 +144,13 @@
                 </div>
 
                 <div class="col-md-4 download">
-                    <h6>Download CV</h6>
-                    <a class="nav-link" href="#">If you need my CV in PDF format you can download here:<span
+                    <h5>Download CV</h5>
+                    <a class="nav-link download-cv" href="#">If you need my CV in PDF format you can download here:<span
                             class="sr-only">Download CV</span><i class="fas fa-download"></i></a>
+                    <a id="jump-top" class="nav-link" href="#brand"><span class="sr-only">Back to top</span><i
+                            class="fas fa-arrow-circle-up"></i></a>
                 </div>
             </div>
-
         </footer>
     </section>
 
@@ -145,6 +165,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
