@@ -23,7 +23,9 @@ hr {
   }
 
   h1,h3 {
+      font-family: "Lora", sans-serif;
       text-align: center;
+      color: aliceblue;
   }
 
 /*------------- Custom 404 page ---------------- */
@@ -275,6 +277,45 @@ ul.list-inline {
     border-radius: 10px; 
     font-size: 18px;
   }
+
+/*--Work Examples--*/
+
+ #work-exemples-section {
+     background-color: #4b678f;
+     padding: 0;
+ }
+    /*--Nav Pills Customisation--*/
+
+ .nav-pills .pill-general .nav-link:not(.active) {
+     border-top: 1px solid aliceblue;
+     border-right: 1px solid aliceblue;
+     border-bottom: 1px solid aliceblue;
+     border-left: 1px solid aliceblue;
+     background-color: #4b678f;
+     color: aliceblue;
+     
+ }
+
+ .nav-pills .pill-general .nav-link {
+    border-top: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    background-color: aliceblue;
+    color: #4b678f;
+ }
+ 
+ .row {
+     padding: 0;
+     padding-top: 5%;
+     padding-bottom: 2%;
+     margin-left: 0;
+     margin-right: 0;
+ }
+
+
+
+
   
 
 
