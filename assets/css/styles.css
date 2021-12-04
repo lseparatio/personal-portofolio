@@ -305,13 +305,25 @@ ul.list-inline {
     color: #4b678f;
  }
  
- .row {
-     padding: 0;
-     padding-top: 5%;
-     padding-bottom: 2%;
-     margin-left: 0;
+ .examples-row {
      margin-right: 0;
+     margin-left: 0;
+     padding: 0;
  }
+
+ .card-body {
+     background-color: #4b678f;
+ }
+
+ .card-title {
+     font-family: "Lora", sans-serif;
+     text-align: center;
+     color: aliceblue;
+ }
+
+
+
+
 
 
 
