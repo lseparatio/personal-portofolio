@@ -117,29 +117,28 @@ hr {
 
 
 #presentation {
-    height: 80%;
+    height: 40%;
 
 }
 
-.ionut-zapototchi {
-    height: 80%;
-    width: 50%;
+
+
+.col-lg-6 {
     padding: 0;
 }
 
-.frame {
-    
-    border: 3px solid #ccc;
-    background: #eee;
-    margin: auto;
-    padding: 15px 10px;
-  }
 
-  .wellcome {
+.wellcome {
     background-color: #4b678f;
   }
 
-  .wellcome h1, p {
+  .wellcome1 {
+      padding-top: 5%;
+  }
+
+
+
+.wellcome h1, p {
       font-family: "Lora", sans-serif;
       color: aliceblue;
       text-align: center;
