@@ -321,7 +321,17 @@ ul.list-inline {
      color: aliceblue;
  }
 
+ .btn-cards {
+     background-color: #4b678f;
+     border-color: aliceblue;
+ }
 
+ .btn-cards:hover {
+    background-color: aliceblue;
+    font-family: "Lora", sans-serif;
+    border-color: aliceblue;
+    color: #4b678f;
+ }
 
 
 
