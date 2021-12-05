@@ -120,7 +120,6 @@ hr {
 
 #presentation {
     height: 40%;
-
 }
 
 
@@ -132,11 +131,11 @@ hr {
 
 .wellcome {
     background-color: #4b678f;
-  }
+}
 
-  .wellcome1 {
-      padding-top: 5%;
-  }
+.wellcome1 {
+    padding-top: 5%;
+}
 
 
 
@@ -195,6 +194,7 @@ hr {
     font-family: "Lora", sans-serif;
     color: aliceblue;
 }
+
 #button-yes {
     font-family: "Lora", sans-serif;
     margin-top: 10px;
@@ -246,7 +246,7 @@ footer li a i {
 
 ul.list-inline {
     text-align: center
-  }
+}
 
 .download-cv {
     font-family: "Lora", sans-serif;
@@ -258,8 +258,6 @@ ul.list-inline {
 .download-cv i {
     padding-left: 10px;
 }
-
-
 
 
 #jump-top {
@@ -276,62 +274,62 @@ ul.list-inline {
     padding: 15px;
     border-radius: 10px; 
     font-size: 18px;
-  }
+}
 
 /*--Work Examples--*/
 
- #work-exemples-section {
-     background-color: #4b678f;
-     padding: 0;
- }
+#work-exemples-section {
+    background-color: #4b678f;
+    padding: 0;
+}
     /*--Nav Pills Customisation--*/
 
- .nav-pills .pill-general .nav-link:not(.active) {
-     border-top: 1px solid aliceblue;
-     border-right: 1px solid aliceblue;
-     border-bottom: 1px solid aliceblue;
-     border-left: 1px solid aliceblue;
-     background-color: #4b678f;
-     color: aliceblue;
+.nav-pills .pill-general .nav-link:not(.active) {
+    border-top: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    background-color: #4b678f;
+    color: aliceblue;
      
- }
+}
 
- .nav-pills .pill-general .nav-link {
+.nav-pills .pill-general .nav-link {
     border-top: 1px solid aliceblue;
     border-right: 1px solid aliceblue;
     border-bottom: 1px solid aliceblue;
     border-left: 1px solid aliceblue;
     background-color: aliceblue;
     color: #4b678f;
- }
+}
  
- .examples-row {
-     margin-right: 0;
-     margin-left: 0;
-     padding: 0;
+.examples-row {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+.card-body {
+    background-color: #4b678f;
+}
+
+.card-title {
+    font-family: "Lora", sans-serif;
+    text-align: center;
+    color: aliceblue;
  }
 
- .card-body {
-     background-color: #4b678f;
- }
+.btn-cards {
+    background-color: #4b678f;
+    border-color: aliceblue;
+}
 
- .card-title {
-     font-family: "Lora", sans-serif;
-     text-align: center;
-     color: aliceblue;
- }
-
- .btn-cards {
-     background-color: #4b678f;
-     border-color: aliceblue;
- }
-
- .btn-cards:hover {
+.btn-cards:hover {
     background-color: aliceblue;
     font-family: "Lora", sans-serif;
     border-color: aliceblue;
     color: #4b678f;
- }
+}
 
 
 
