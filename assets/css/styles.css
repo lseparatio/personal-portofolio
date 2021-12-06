@@ -22,7 +22,7 @@ hr {
     margin: 0;
   }
 
-  h1,h3 {
+  h1,h3,h5 {
       font-family: "Lora", sans-serif;
       text-align: center;
       color: aliceblue;
@@ -222,9 +222,6 @@ footer {
 }
 
 footer h5 {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
-    text-align: center;
     padding-top: 8px;
 }
 
@@ -331,12 +328,23 @@ ul.list-inline {
     color: #4b678f;
 }
 
+/*--Contact page start Section--*/
 
+.contact-page {
+    background-color: #4b678f;
+}
 
+.contact-page h1 {
+    padding-top: 15px;
+}
 
-
-
-  
-
-
-
+.social-list li a i {
+    color: aliceblue;
+    height: 45px;
+    width: 45px;
+    padding-top: 5px;
+    border-radius: 0%;
+    background-color: #4b678f;
+    font-size: 30px;
+    text-align: center;
+}
