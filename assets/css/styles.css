@@ -362,3 +362,14 @@ ul.list-inline {
 }
 */
 
+.contact {
+    background-color: #4b678f;
+}
+
+form {
+    padding-top: 10px;
+}
+
+form label {
+    color: aliceblue;
+}
