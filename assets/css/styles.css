@@ -367,9 +367,24 @@ ul.list-inline {
 }
 
 form {
-    padding-top: 10px;
+    padding: 10px;
 }
 
-form label {
+form label, :placeholder-shown {
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
     color: aliceblue;
+}
+
+#btn-submit {
+    font-family: "Lora", sans-serif;
+    border-color: aliceblue;
+    background-color: #4b678f;
+}
+
+#btn-submit:hover {
+    background-color: aliceblue;
+    font-family: "Lora", sans-serif;
+    border-color: aliceblue;
+    color: #4b678f;
 }
