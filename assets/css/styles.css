@@ -17,7 +17,7 @@ div {
 }
 
 hr {
-    border: 3px solid rgba(86, 86, 155, 0);
+    border: 1px solid rgba(86, 86, 155, 0);
     border-radius: 2px;
     margin: 0;
   }
