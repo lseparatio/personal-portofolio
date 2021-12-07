@@ -40,16 +40,16 @@ hr {
 }
 
 .errorpage {
-    background: url(../img/dog.jpg) no-repeat center center fixed;
+    background: url(../img/dog.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
 .dogeat {
-    font-family: "Fjalla One", sans-serif;
+    font-family: "Lora", sans-serif;
     position: relative;
     display: block;
     text-align: center;
-    color:#4b678f;
+    color:aliceblue;
     margin: 10% 10%;
 }
 
@@ -87,7 +87,7 @@ hr {
 /*------------- Hero Section ---------------- */
 
 #hero-section {
-    background: url(../img/developer-coding-in-php.jpg);
+    background: url(../img/developer-coding-in-php.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
