@@ -28,6 +28,8 @@ hr {
       color: aliceblue;
   }
 
+
+
 /*------------- Custom 404 page ---------------- */
 
 .dog {
@@ -349,18 +351,11 @@ ul.list-inline {
     text-align: center;
 }
 
-/*.social-list li a i:hover {
-    color: #4b678f;
-    height: 45px;
-    width: 45px;
-    padding-top: 5px;
-    border-radius: 25%;
-    border-top: aliceblue;
-    background-color: aliceblue;
-    font-size: 30px;
-    text-align: center;
+.social-list li a i:hover {
+    color: #9aaeca;
+
 }
-*/
+
 
 .contact {
     background-color: #4b678f;
@@ -387,4 +382,19 @@ form label, :placeholder-shown {
     font-family: "Lora", sans-serif;
     border-color: aliceblue;
     color: #4b678f;
+}
+
+.address {
+    font-family: "Lora", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.map {
+    padding: 10px;
+}
+
+.map-row, .address-row {
+    margin: 0;
 }
