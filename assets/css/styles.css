@@ -318,9 +318,16 @@ ul.list-inline {
     color: aliceblue;
  }
 
-.btn-cards {
+
+.btn-cards,
+.btn-cards:visited,
+.btn-cards:focus,
+.btn-cards:active,
+.btn-cards:not(.active) {
     background-color: #4b678f;
+    font-family: "Lora", sans-serif;
     border-color: aliceblue;
+    color: aliceblue;
 }
 
 .btn-cards:hover {
@@ -329,6 +336,9 @@ ul.list-inline {
     border-color: aliceblue;
     color: #4b678f;
 }
+
+
+
 
 /*--Contact page start Section--*/
 
