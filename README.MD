@@ -83,14 +83,15 @@ _Contact Page - Contact Form_
 _User Stories_
 
 As a site owner:
+
 - I want users to understand fast that this website is for my portfolio.
 - I want users to be able to easily navigate my website on any device.
 - I want to present myself as best as possible including my skills.
 - I want to be easy to contact on multiple platforms.
 - I want my website to be accessible to anyone even for screen readers.
 
-
 As a user:
+
 - I want to be able to view the website on any device.
 - I want the menu to be intuitive.
 - I want to learn as much is possible about developer.
@@ -101,14 +102,29 @@ As a user:
 _Wireframes, i used Balsamiq_
 
 - Mobile Wireframes:
+
  1. Index Page
 
-![Mobile Index](readme-assets/wireframes/index-page-mobile.png)
+![Index Mobile Example](readme-assets/wireframes/index-page-mobile.png)
 
  2. Example Page
 
-![Mobile Example](readme-assets/wireframes/work-examples-mobile.png)
+![Example Mobile](readme-assets/wireframes/work-examples-mobile.png)
 
 3. Contact Page
 
-![Contact Example](readme-assets/wireframes/contact-mobile.png)
+![Contact Mobile Example](readme-assets/wireframes/contact-mobile.png)
+
+- Tablet Wireframes:
+
+ 1. Index Page
+
+![Index Tablet Example](readme-assets/wireframes/index-page-tablet.png)
+
+ 2. Example Page
+
+![Example Tablet](readme-assets/wireframes/work-examples-tablet.png)
+
+3. Contact Page
+
+![Contact Tablet Example](readme-assets/wireframes/contact-tablet.png)
