@@ -32,3 +32,5 @@ _Index Page - Welcome Section_
 
 - Welcome section have my image and a welcome and presentation text.
 - The section is designed to welcome the potential employer and to give him a better idea about who i am.
+
+###Work In Progress
