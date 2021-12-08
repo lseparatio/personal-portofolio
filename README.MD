@@ -51,13 +51,29 @@ _Work Example Page_
 ![Work Example Page Desktop](readme-assets/work-examples.jpg)
 
 - Work Examples page was designed to show all my projects to the user, to provide with some basic information about projects.
-- There are 2 buttons to every work example, first leading to Live project page and secont to GitHub project.
+- There are 2 buttons to every work example, first leading to Live project page and second to GitHub project.
 - User can change the content by selecting the domain of expertise.
 - Page is completely responsive:
 - Phone example:
 
 ![Work Example Page Phone](readme-assets/work-examples-mobile.jpg)
+
 - Tablet Example:
 
 ![Work Example Page Tablet](readme-assets/work-examples-tablet.jpg)
 
+_Contact Page - Social Icons Section_
+
+![Contact Page Social Section](readme-assets/fancy.jpg)
+
+- In order to create a connection with reader, i have to "Speack with him", this is what is doing this section.
+- Also i provide with 6 contact ways.
+
+_Contact Page - Contact Form_
+
+- But if all that contact ways are not enough..
+
+![Contact Form](readme-assets/contact-form.jpg)
+
+- ...an contact form, contact detaills and map need to be provided.
+- All page is full responsive.
