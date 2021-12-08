@@ -8,7 +8,7 @@ Welcome, this project is proof of my skills as a developer. This is also a real 
 
  _Navigation:_
 
-![NavBar Desktop](readme-assets\navbar-desktop.jpg)
+![NavBar Desktop](https://github.com/lseparatio/personal-portofolio/blob/524b01468659eb7925bbae465bf38e038ebbe800/readme-assets/navbar-desktop.jpg)
 
  - Navigation was designed to be easy to use and to understand.
 
