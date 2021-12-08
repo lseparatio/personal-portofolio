@@ -45,3 +45,19 @@ _Index Page - Call to Action Section_
 
 - Call to Action Section was designed to do not lose the reader attention and to help him in a easy way to next page.
 - This section contain a text and a button that is sending user to next page.
+
+_Work Example Page_
+
+![Work Example Page Desktop](readme-assets/work-examples.jpg)
+
+- Work Examples page was designed to show all my projects to the user, to provide with some basic information about projects.
+- There are 2 buttons to every work example, first leading to Live project page and secont to GitHub project.
+- User can change the content by selecting the domain of expertise.
+- Page is completely responsive:
+- Phone example:
+
+![Work Example Page Phone](readme-assets/work-examples-mobile.jpg)
+- Tablet Example:
+
+![Work Example Page Tablet](readme-assets/work-examples-tablet.jpg)
+
