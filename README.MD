@@ -128,3 +128,17 @@ _Wireframes, i used Balsamiq_
 3. Contact Page
 
 ![Contact Tablet Example](readme-assets/wireframes/contact-tablet.png)
+
+- Desktop Wireframes:
+
+ 1. Index Page
+
+![Index Desktop Example](readme-assets/wireframes/index-page-desktop.png)
+
+ 2. Example Page
+
+![Example Desktop](readme-assets/wireframes/work-examples-desktop.png)
+
+3. Contact Page
+
+![Contact Desktop Example](readme-assets/wireframes/contact-desktop.png)
