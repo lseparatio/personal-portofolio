@@ -43,5 +43,5 @@ _Index Page - Call to Action Section_
 
 ![Call to Action Section](readme-assets/call-to-action.jpg)
 
-- Call to Action Section was designed to do not lose the reader attetion and to help him in a easy way to next page.
+- Call to Action Section was designed to do not lose the reader attention and to help him in a easy way to next page.
 - This section contain a text and a button that is sending user to next page.
