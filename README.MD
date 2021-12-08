@@ -2,6 +2,8 @@
 
 Welcome, this project is proof of my skills as a developer. This is also a real project where all the projects I worked on will be posted in time, this serving as my portfolio. This project is also designed so that people who want to hire me can get a better idea of my skills and be able to contact me as easily as possible.
 
+See this project on live enviroment on GitHub Pages here: https://lseparatio.github.io/personal-portofolio/
+
 ![Website on different screen sizes](readme-assets/screens.png)
 
 ## Features
