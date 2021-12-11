@@ -22,7 +22,7 @@ hr {
     margin: 0;
   }
 
-  h1,h3,h5 {
+  h1,h2,h3,h4,h5,h6 {
       font-family: "Lora", sans-serif;
       text-align: center;
       color: aliceblue;
@@ -407,4 +407,37 @@ form label, :placeholder-shown {
 
 .map-row, .address-row {
     margin: 0;
+}
+
+/*--Thank You--*/
+
+.thank-you {
+    background-color: #4b678f;
+}
+
+.thank-you img {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 8px;
+}
+
+.address-row-thank-you {
+    padding-top: 10px;
+    padding-bottom: 10%;
+}
+
+.thank-you h1 {
+    font-family: "Lora", sans-serif;
+    padding-top: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.address-thank-you h2 { 
+    padding-top: 40px;
+}
+
+.map-thank-you {
+    padding-left: 15px;
+    padding-right: 15px;
 }

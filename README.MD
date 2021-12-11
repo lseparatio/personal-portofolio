@@ -125,7 +125,7 @@ As a user:
 
 ![Example Tablet](readme-assets/wireframes/work-examples-tablet.png)
 
-3. Contact Page
+ 3. Contact Page
 
 ![Contact Tablet Example](readme-assets/wireframes/contact-tablet.png)
 
@@ -139,6 +139,6 @@ As a user:
 
 ![Example Desktop](readme-assets/wireframes/work-examples-desktop.png)
 
-3. Contact Page
+ 3. Contact Page
 
 ![Contact Desktop Example](readme-assets/wireframes/contact-desktop.png)
