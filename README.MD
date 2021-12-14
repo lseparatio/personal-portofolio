@@ -174,8 +174,55 @@ As a user:
 
 ### Colors
 
- - I used https://coolors.co/image-picker to pick a color  from my profille image. 
+- I used <https://coolors.co/image-picker> to pick a color  from my profille image.
 
-  ![Color Picker](readme-assets\img\coolors.png)
+  ![Color Picker](readme-assets/img/coolors.png)
 
+### Images
+
+- Images was taken from <https://www.pexels.com/>
+  
+</details>
+
+## Coding
+
+- The coding progress can be seen on commits.
+
+- In coding progress Bootstrap documentation was indespensable.
+
+## Testing
+
+I started the testing using for LightHouse from Google. I learn  that even from an expert like google you can't expect exact results every time. So i am going to show you here the best result. Even some time performance is droping to 80 because they can't acces bootstrap css ?!?
+
+<details>
+<summary>LightHouse front page for mobile, click to expand.</summary>
+
+![LightHouse test front page](readme-assets/img/tests/lighthouse-frontpage.png)
+</details>
+
+<details>
+<summary>LightHouse front page for desktop, click to expand.</summary>
+
+![LightHouse test front page](readme-assets/img/tests/front-page-desktop.png)
+</details>
+
+## Fixes after testing with lighthouse
+
+- I learn in the hard way that converting a JPG to WEBP is not always usefull, the image can be even heavier after conversion in some cases. For this reason i had to change hero image because whas a bit more that 2mb. Now i have a 187 KB image that boosted the performance.
+
+- Thanks to lighthouse i learn to add rel="noopener" to any target="_blank" for security. So thanks.
+
+### Examples Page
+
+<details>
+<summary>LightHouse example page for mobile, click to expand.</summary>
+
+![LightHouse test mobile example page](readme-assets/img/tests/exaple-page-mobile.png)
+</details>
+
+<details>
+
+<summary>LightHouse example page for Desktop, click to expand.</summary>
+
+![LightHouse test mobile example page](readme-assets/img/tests/example-page-desktop.png)
 </details>
