@@ -8,6 +8,10 @@ See this project on live enviroment on GitHub Pages here: <https://lseparatio.gi
 
 ## Features
 
+<details>
+
+<summary>Click To Expand Features</summary>
+
 ### Navigation
 
 - Same navigation menu is used across all pages for consistency.
@@ -78,8 +82,21 @@ See this project on live enviroment on GitHub Pages here: <https://lseparatio.gi
 - ...an contact form, contact detaills and map need to be provided.
 - All page is full responsive.
 
+### Thank You Page
+
+![Thank You Page](readme-assets/img/thank-you-page.jpg)
+
+- Thank you page where user is redirected after form is succesfully submited.
+
+### Custom 404 Page
+
+![Custom 404 Page](readme-assets/img/404-page.jpg)
+</details>
+
 ## The Creation Timeline
 
+<details>
+<summary>Click to open creation timeline</summary>
 ### User Stories
 
 As a site owner:
@@ -100,6 +117,10 @@ As a user:
 - I want to find out who you are.
 
 ### Wireframes, i used Balsamiq
+
+<details>
+
+<summary>Click to expend wireframes</summary>
 
 - Mobile Wireframes:
 
@@ -142,3 +163,6 @@ As a user:
  3. Contact Page
 
 ![Contact Desktop Example](readme-assets/wireframes/contact-desktop.png)
+</details>
+
+</details>
