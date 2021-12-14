@@ -104,6 +104,14 @@ h6 {
   padding-top: 20px;
 }
 
+.layer {
+  background-color: rgba(75, 103, 143, 0.7);
+
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+
 /*------------- Wellcome image ---------------- */
 
 #presentation {
@@ -159,9 +167,8 @@ p {
   left: 2px;
   font-weight: 400;
   padding: 10px 1px 10px 10px;
-  color:aliceblue;
+  color: aliceblue;
   background-color: #007bff;
- 
 }
 
 .progress-section {
