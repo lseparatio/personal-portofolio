@@ -153,11 +153,14 @@ p {
 }
 
 .progress-type {
+  font-family: "Lora", sans-serif;
+  letter-spacing: 0.1em;
   position: absolute;
-  left: 0px;
+  left: 2px;
   font-weight: 400;
-  padding: 3px 30px 2px 10px;
-  color: #fafafa;
+  padding: 10px 10px 10px 10px;
+  color:aliceblue;
+  background-color: #4b678f;
 }
 
 .progress-section {
