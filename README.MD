@@ -170,7 +170,7 @@ As a user:
 
 - Visual Studio Code ( After i tried some editors it seem i like visual studio and the fact it is saving a local copy of project and i can push to GitHub. )
 - GIMP ( For image editing. Briliant open-source editor. )
-- Bootstrap 4.6 ( I did this choice after i read in Bootstrap documentation that they have problems with Internet Explorer. )
+- Bootstrap 4.6 ( I did this choice after i read in Bootstrap 5 documentation that they have problems with Internet Explorer. )
 
 ### Colors
 
@@ -195,13 +195,13 @@ As a user:
 I started the testing using for LightHouse from Google. I learn  that even from an expert like google you can't expect exact results every time. So i am going to show you here the best result. Even some time performance is droping to 80 because they can't acces bootstrap css ?!?
 
 <details>
-<summary>LightHouse front page for mobile, click to expand.</summary>
+<summary>LightHouse front page for Mobile test, click to expand.</summary>
 
 ![LightHouse test front page](readme-assets/img/tests/lighthouse-frontpage.png)
 </details>
 
 <details>
-<summary>LightHouse front page for desktop, click to expand.</summary>
+<summary>LightHouse front page for Desktop test, click to expand.</summary>
 
 ![LightHouse test front page](readme-assets/img/tests/front-page-desktop.png)
 </details>
@@ -215,14 +215,34 @@ I started the testing using for LightHouse from Google. I learn  that even from 
 ### Examples Page
 
 <details>
-<summary>LightHouse example page for mobile, click to expand.</summary>
+<summary>LightHouse example page for Mobile test, click to expand.</summary>
 
 ![LightHouse test mobile example page](readme-assets/img/tests/exaple-page-mobile.png)
 </details>
 
 <details>
 
-<summary>LightHouse example page for Desktop, click to expand.</summary>
+<summary>LightHouse example page for Desktop test, click to expand.</summary>
 
 ![LightHouse test mobile example page](readme-assets/img/tests/example-page-desktop.png)
 </details>
+
+- was no so much to fix here only that rel="noopener" in all links.
+- can be done to reduce images sizes, but 10 is for teachers.
+
+### Contact Page
+
+<details>
+<summary>LightHouse example page for Contact page test, click to expand.</summary>
+
+![LightHouse test mobile example page](readme-assets/img/tests/contact-mobile.png)
+</details>
+
+<details>
+
+<summary>LightHouse example page for Contact Page Desktop test, click to expand.</summary>
+
+![LightHouse test mobile example page](readme-assets/img/tests/contact-page-desktop.png)
+</details>
+
+
