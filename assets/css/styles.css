@@ -382,6 +382,8 @@ form label,
 .map-row,
 .address-row {
   margin: 0;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /*--Thank You--*/
