@@ -1,443 +1,414 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /*------------- General ---------------- */
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 section {
-    padding: 0;
+  padding: 0;
 }
 
 div {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 hr {
-    border: 1px solid rgba(86, 86, 155, 0);
-    border-radius: 2px;
-    margin: 0;
-  }
+  border: 1px solid rgba(86, 86, 155, 0);
+  border-radius: 2px;
+  margin: 0;
+}
 
-  h1,h2,h3,h4,h5,h6 {
-      font-family: "Lora", sans-serif;
-      text-align: center;
-      color: aliceblue;
-  }
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
 
 /*------------- Custom 404 page ---------------- */
 
 .dog {
-    width: 100%;
-    height: 100%;
-    padding: 0 0;
-    margin: 0 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 .errorpage {
-    background: url(../img/dog.webp) no-repeat center center fixed;
-    background-size: cover;
+  background: url(../img/dog.webp) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .dogeat {
-    font-family: "Lora", sans-serif;
-    position: relative;
-    display: block;
-    text-align: center;
-    color:aliceblue;
-    margin: 10% 10%;
+  font-family: "Lora", sans-serif;
+  position: relative;
+  display: block;
+  text-align: center;
+  color: aliceblue;
+  margin: 10% 10%;
 }
 
-.errortext{
-    text-decoration: none;
+.errortext {
+  text-decoration: none;
 }
 
 /*------------- Navbar Css ---------------- */
 
 #nav-container {
-    padding: 0;
+  padding: 0;
 }
 
 #brand {
-    font-family: "Lora", sans-serif; 
-    color: aliceblue;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
 }
 
 #navbarToggler a {
-    font-family: "Lora", sans-serif; 
-    color: aliceblue;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
 }
 
-
-.navbar{
-    background-color: #4b678f;
+.navbar {
+  background-color: #4b678f;
 }
 
 .flag {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
-
 
 /*------------- Hero Section ---------------- */
 
-#hero-section {
-    background: url(../img/developer-coding-in-php.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80%;
-    padding: 0;
-}
-
 #hero-div {
-    height: 80vh;
+  height: 80vh;
 }
 
 #jumotron-container {
-    padding-top: 20vh;
+  padding-top: 20vh;
 }
 
 #jumotron-container h1 {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
 }
 
 #jumotron-container h3 {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
-    padding-top: 20px;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
+  padding-top: 20px;
 }
-
-
-
 
 /*------------- Wellcome image ---------------- */
 
-
 #presentation {
-    height: 40%;
+  height: 40%;
 }
-
-
 
 .col-lg-6 {
-    padding: 0;
+  padding: 0;
 }
 
-
 .wellcome {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 .wellcome1 {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
-
-
-.wellcome h1, p {
-      font-family: "Lora", sans-serif;
-      color: aliceblue;
-      text-align: center;
-  }
+.wellcome h1,
+p {
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
 
 .col-md-6 {
-    padding: 0;
+  padding: 0;
 }
 
 /*-- Skills Section-- */
 
 .skills {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 .skills h1 {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
-    padding-top: 15px;
-    margin-bottom: 0;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
+  padding-top: 15px;
+  margin-bottom: 0;
 }
 
 .progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 3px 30px 2px 10px;
+  color: #fafafa;
 }
 
 .progress-section {
-    margin: 40px 20px 0px 20px;
-    padding-bottom: 20px;
+  margin: 40px 20px 0px 20px;
+  padding-bottom: 20px;
 }
-
 
 /*--Call To Action Section--*/
 
 .call-to-action {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 #h1-call-to-action {
-    margin-top: 10px;
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
+  margin-top: 10px;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
 }
 
 #button-yes {
-    font-family: "Lora", sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: aliceblue;
-    border-color:aliceblue ;
-    text-transform: uppercase;
-    
+  font-family: "Lora", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  border-color: aliceblue;
+  text-transform: uppercase;
 }
 
 #button-yes:hover {
-    font-family: "Lora", sans-serif;
-    background-color: aliceblue;
-    color: #4b678f;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-family: "Lora", sans-serif;
+  background-color: aliceblue;
+  color: #4b678f;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-
 
 /*--Footer--*/
 
-
 footer {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 footer h5 {
-    padding-top: 8px;
+  padding-top: 8px;
 }
 
 a.nav-link {
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 footer li a i {
-    color: aliceblue;
-    height: 45px;
-    width: 45px;
-    padding-top: 5px;
-    border-radius: 0%;
-    background-color: #4b678f;
-    font-size: 30px;
-    text-align: center;
+  color: aliceblue;
+  height: 45px;
+  width: 45px;
+  padding-top: 5px;
+  border-radius: 0%;
+  background-color: #4b678f;
+  font-size: 30px;
+  text-align: center;
 }
 
 ul.list-inline {
-    text-align: center
+  text-align: center;
 }
 
 .download-cv {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
-    text-align: center;
-    padding-top: 0;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 0;
 }
 
 .download-cv i {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
-
 #jump-top {
-    display: block;
-    position: fixed;
-    bottom: 53px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: rgba(0, 0, 0, 0);
-    color: white; 
-    cursor: pointer; 
-    padding: 15px;
-    border-radius: 10px; 
-    font-size: 18px;
+  display: block;
+  position: fixed;
+  bottom: 53px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 /*--Work Examples--*/
 
 #work-exemples-section {
-    background-color: #4b678f;
-    padding: 0;
+  background-color: #4b678f;
+  padding: 0;
 }
-    /*--Nav Pills Customisation--*/
+/*--Nav Pills Customisation--*/
 
 .nav-pills .pill-general .nav-link:not(.active) {
-    border-top: 1px solid aliceblue;
-    border-right: 1px solid aliceblue;
-    border-bottom: 1px solid aliceblue;
-    border-left: 1px solid aliceblue;
-    background-color: #4b678f;
-    color: aliceblue;
-     
+  border-top: 1px solid aliceblue;
+  border-right: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+  border-left: 1px solid aliceblue;
+  background-color: #4b678f;
+  color: aliceblue;
 }
 
 .nav-pills .pill-general .nav-link {
-    border-top: 1px solid aliceblue;
-    border-right: 1px solid aliceblue;
-    border-bottom: 1px solid aliceblue;
-    border-left: 1px solid aliceblue;
-    background-color: aliceblue;
-    color: #4b678f;
+  border-top: 1px solid aliceblue;
+  border-right: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+  border-left: 1px solid aliceblue;
+  background-color: aliceblue;
+  color: #4b678f;
 }
- 
+
 .examples-row {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
 }
 
 .card-body {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 .card-title {
-    font-family: "Lora", sans-serif;
-    text-align: center;
-    color: aliceblue;
- }
-
+  font-family: "Lora", sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
 
 .btn-cards,
 .btn-cards:visited,
 .btn-cards:focus,
 .btn-cards:active,
 .btn-cards:not(.active) {
-    background-color: #4b678f;
-    font-family: "Lora", sans-serif;
-    border-color: aliceblue;
-    color: aliceblue;
+  background-color: #4b678f;
+  font-family: "Lora", sans-serif;
+  border-color: aliceblue;
+  color: aliceblue;
 }
 
 .btn-cards:hover {
-    background-color: aliceblue;
-    font-family: "Lora", sans-serif;
-    border-color: aliceblue;
-    color: #4b678f;
+  background-color: aliceblue;
+  font-family: "Lora", sans-serif;
+  border-color: aliceblue;
+  color: #4b678f;
 }
-
-
-
 
 /*--Contact page start Section--*/
 
 .contact-page {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 .contact-page h1 {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .social-list li a i {
-    color: aliceblue;
-    height: 45px;
-    width: 45px;
-    padding-top: 5px;
-    border-radius: 0%;
-    background-color: #4b678f;
-    font-size: 30px;
-    text-align: center;
+  color: aliceblue;
+  height: 45px;
+  width: 45px;
+  padding-top: 5px;
+  border-radius: 0%;
+  background-color: #4b678f;
+  font-size: 30px;
+  text-align: center;
 }
 
 .social-list li a i:hover {
-    color: #9aaeca;
-
+  color: #9aaeca;
 }
 
-
 .contact {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 form {
-    padding: 10px;
+  padding: 10px;
 }
 
-form label, :placeholder-shown {
-    font-family: "Lora", sans-serif;
-    font-weight: 400;
-    color: aliceblue;
+form label,
+:placeholder-shown {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  color: aliceblue;
 }
 
 #btn-submit {
-    font-family: "Lora", sans-serif;
-    border-color: aliceblue;
-    background-color: #4b678f;
+  font-family: "Lora", sans-serif;
+  border-color: aliceblue;
+  background-color: #4b678f;
 }
 
 #btn-submit:hover {
-    background-color: aliceblue;
-    font-family: "Lora", sans-serif;
-    border-color: aliceblue;
-    color: #4b678f;
+  background-color: aliceblue;
+  font-family: "Lora", sans-serif;
+  border-color: aliceblue;
+  color: #4b678f;
 }
 
 .address {
-    font-family: "Lora", sans-serif;
-    color: aliceblue;
-    text-align: center;
-    padding-top: 10px;
+  font-family: "Lora", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .map {
-    padding: 10px;
+  padding: 10px;
 }
 
-.map-row, .address-row {
-    margin: 0;
+.map-row,
+.address-row {
+  margin: 0;
 }
 
 /*--Thank You--*/
 
 .thank-you {
-    background-color: #4b678f;
+  background-color: #4b678f;
 }
 
 .thank-you img {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 8px;
 }
 
 .address-row-thank-you {
-    padding-top: 10px;
-    padding-bottom: 10%;
+  padding-top: 10px;
+  padding-bottom: 10%;
 }
 
 .thank-you h1 {
-    font-family: "Lora", sans-serif;
-    padding-top: 30px;
-    padding-right: 4px;
-    padding-left: 4px;
+  font-family: "Lora", sans-serif;
+  padding-top: 30px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
 
-.address-thank-you h2 { 
-    padding-top: 40px;
+.address-thank-you h2 {
+  padding-top: 40px;
 }
 
 .map-thank-you {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
