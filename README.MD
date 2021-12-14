@@ -97,6 +97,7 @@ See this project on live enviroment on GitHub Pages here: <https://lseparatio.gi
 
 <details>
 <summary>Click to open creation timeline</summary>
+
 ### User Stories
 
 As a site owner:
@@ -164,5 +165,17 @@ As a user:
 
 ![Contact Desktop Example](readme-assets/wireframes/contact-desktop.png)
 </details>
+
+### Tools
+
+- Visual Studio Code ( After i tried some editors it seem i like visual studio and the fact it is saving a local copy of project and i can push to GitHub. )
+- GIMP ( For image editing. Briliant open-source editor. )
+- Bootstrap 4.6 ( I did this choice after i read in Bootstrap documentation that they have problems with Internet Explorer. )
+
+### Colors
+
+ - I used https://coolors.co/image-picker to pick a color  from my profille image. 
+
+  ![Color Picker](readme-assets\img\coolors.png)
 
 </details>
