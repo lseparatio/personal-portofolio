@@ -288,3 +288,21 @@ I started the testing using for LightHouse from Google. I learn  that even from 
 
 ![W3 validator check for css with no errors](readme-assets/img/tests/css-w3.png)
 </details>
+
+## Deployment
+
+### This website was deployed on GitHub pages. Steps
+
+- In the GitHub repository, navigate to the Settings tab
+- In left menu, down find Pages tab
+- From the source section drop-down menu, select the Main Branch
+- Once all is done your link is displayed.
+
+This particular deployment can be seen on: <https://lseparatio.github.io/personal-portofolio/>
+
+### This website was deployed on VPS server. Steps
+
+- after you setup vps or shared hosting and a domain name, in the GitHub repository press CODE dropdown and then Download ZIP.
+- upload the ZIP in your public_html folder and un-zip-it.  You shud have the website ready.
+
+Example of this deployment can be seen on: <https://ionutzapototchi.com/>
