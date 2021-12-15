@@ -248,3 +248,43 @@ I started the testing using for LightHouse from Google. I learn  that even from 
 ## Validator testing
 
 - No errors were returned when passing through the official validator.
+
+### Front page validator link: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flseparatio.github.io%2Fpersonal-portofolio%2Findex.html" rel="noopener" target="_blank">Click To See</a>
+
+<details>
+<summary>Click to expand image.</summary>
+
+![W3 validator check for front page with no errors](readme-assets/img/tests/front-page-w3.png)
+</details>
+
+### Examples page validator link: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flseparatio.github.io%2Fpersonal-portofolio%2Fexamples.html" rel="noopener" target="_blank">Click To See</a>
+
+<details>
+<summary>Click to expand image.</summary>
+
+![W3 validator check for examples page with no errors](readme-assets/img/tests/example-page-w3.png)
+</details>
+
+### Contact page validator link: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flseparatio.github.io%2Fpersonal-portofolio%2Fcontact.html" rel="noopener" target="_blank">Click To See</a>
+
+<details>
+<summary>Click to expand image.</summary>
+
+![W3 validator check for contact page with no errors](readme-assets/img/tests/contact-page-w3.png)
+</details>
+
+### Thank you page validator link: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flseparatio.github.io%2Fpersonal-portofolio%2Fthank-you.html" rel="noopener" target="_blank">Click To See</a>
+
+<details>
+<summary>Click to expand image.</summary>
+
+![W3 validator check for thank you page with no errors](readme-assets/img/tests/thank-you-page-w3.png)
+</details>
+
+### CSS validator link: <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flseparatio.github.io%2Fpersonal-portofolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" rel="noopener" target="_blank">Click To See</a>
+
+<details>
+<summary>Click to expand image.</summary>
+
+![W3 validator check for css with no errors](readme-assets/img/tests/css-w3.png)
+</details>
