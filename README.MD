@@ -245,4 +245,6 @@ I started the testing using for LightHouse from Google. I learn  that even from 
 ![LightHouse test mobile example page](readme-assets/img/tests/contact-page-desktop.png)
 </details>
 
+## Validator testing
 
+- No errors were returned when passing through the official validator.
