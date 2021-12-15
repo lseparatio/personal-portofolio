@@ -305,4 +305,19 @@ This particular deployment can be seen on: <https://lseparatio.github.io/persona
 - after you setup vps or shared hosting and a domain name, in the GitHub repository press CODE dropdown and then Download ZIP.
 - upload the ZIP in your public_html folder and un-zip-it.  You shud have the website ready.
 
-Example of this deployment can be seen on: <https://ionutzapototchi.com/>
+Example of this deployment can be seen on: <https://ionutzapototchi.com>
+(This version is identic with GitHub Pages hosted excepting php code source that is making the form to send emails. <https://www.freecontactform.com/forms/contact-form-free>)
+
+## Credits
+
+- Bootstrap - For well documented css framework
+- Pexels - For hero photo (exaples photos have credits straight on page)
+- Coolors - For color from image picker
+- GIMP - For Image processing
+- Favicon.io - For Favicon
+- Font Awesome - For icons
+- Google Fonts - For Lora font.
+- Code Institute - For brilliant lessons from where i learn to do this.
+- And Free Contact Form that provided me with php code with is making the form in my VPS hosted website to work. <https://www.freecontactform.com/forms/contact-form-free>
+
+## Thank you for reading. For any questions don't hesitate to contact me. Kind Regards, Ionut Zapototchi
